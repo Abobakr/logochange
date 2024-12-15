@@ -1,0 +1,27 @@
+
+body{
+      text-align: center;
+      background-color:yellowgreen;
+      padding: 25%;
+      font-style: italic;      
+}
+h1{
+      color: #fff;
+}
+
+@media(max-width:767px){
+      .large-logo{
+            display: none;   
+      }
+      .small-logo{
+            display: block;
+      }
+}
+@media(min-width:768px){
+      .large-logo{
+            display: block;   
+      }
+      .small-logo{
+            display: none;
+      }
+}
